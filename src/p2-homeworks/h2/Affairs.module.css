@@ -1,0 +1,24 @@
+.active {
+background-color: crimson;
+}
+.button{
+    margin: 4px;
+}
+.affair{
+    background-color: darksalmon;
+    display: grid;
+    grid-template-columns: 50px 100px 100px;
+}
+.high{
+   color: red;
+}
+
+.middle{
+    color: chartreuse;
+}
+
+.low{
+    color: mediumspringgreen;
+}
+
+

@@ -1,0 +1,68 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 10% 24%;
+}
+
+.img {
+    align-self: end;
+    justify-self: center;
+
+}
+
+.radius {
+    border-radius: 100%;
+    border: 3px solid green;
+    box-shadow: 0 0 7px #666;
+    width: 73px;
+    height: 73px;
+    padding: 0px;
+    margin: -4px;
+}
+
+.text {
+    position: relative;
+    width: 250px;
+    height: 84px;
+    border-radius: 10px 10px 10px 0;
+    background: darkgreen;
+    color: #bbfbbc;
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    padding: 8px;
+    margin: 1px;
+    align-items: end;
+
+}
+
+.text::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 100%;
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: radial-gradient(60px at top left, transparent 49%, darkgreen 51%) no-repeat right bottom;
+}
+
+.name {
+    color: darkcyan;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    margin: 0px;
+}
+
+.message {
+    font-weight: bolder;
+    font-size: 15px;
+    padding: 5px;
+    margin: 0px;
+}
+
+.time {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 18px;
+    color: #666666;
+}
