@@ -1,0 +1,17 @@
+.select {
+    min-height: 50px;
+    min-width: 300px;
+    background-color: #f1c40f;
+    color: black;
+    cursor: pointer;
+    font-size: larger;
+}
+
+.option{
+    color:#f1c40f;
+    background-color: #000;;
+}
+
+.option:checked{
+    color:#ffffff;
+}
